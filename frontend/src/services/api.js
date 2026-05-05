@@ -1,7 +1,9 @@
 import axios from 'axios';
 
+const API_BASE = process.env.REACT_APP_API_URL || '';
+
 const api = axios.create({
-    baseURL: '/api' // Handled by proxy in development
+    baseURL: `${API_BASE}/api` // Handled by proxy in development
 });
 
 // Request interceptor to add token
