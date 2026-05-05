@@ -47,7 +47,9 @@ const callOllama = async (agentName, prompt, systemInstruction) => {
         });
 
         console.error(`Ollama Error [${agentName}]:`, error.message);
-        throw new Error('AI Service temporarily unavailable');
+        return {
+        error: "AI service not available (Ollama not running or not accessible)"
+    };
     }
 };
 
