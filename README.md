@@ -1,5 +1,8 @@
 ## 🚀 NeuroTask AI
 
+🌐 Live App: https://neurotask-frontend.onrender.com/  
+🔌 API: https://neurotask-ai-a56h.onrender.com/api/health
+
 NeuroTask AI is a full-stack task management system where I experimented with **agentic AI using a local LLM (Ollama - Llama3)**.
 
 The idea was simple: instead of just managing tasks, let AI actively **plan, monitor, and assist** in execution.
